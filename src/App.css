@@ -76,6 +76,20 @@ svg {
 }
 
 /*
+  Vars
+*/
+
+:root {
+  --primary-color: #131321;
+  --bg-color: #F2E9E4;
+}
+
+.dark {
+  --primary-color: #F2E9E4;
+  --bg-color: #131321;
+}
+
+/*
   Utility Classes
 */
 
@@ -104,4 +118,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: 'Lora', serif;
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+  transition: background-color 0.15s ease-out, color 0.15s ease-out;
 }

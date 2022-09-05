@@ -1,21 +1,10 @@
 .earth {
   text-align: center;
   padding-top: 4rem;
-  height: 100%;
-  width: 100%;
-
-  color: #131321;
-  background-color: #F2E9E4;
-  transition: background-color 0.15s ease-out, color 0.15s ease-out;
 }
 
 .earth > button {
   background: none;
   border: none;
   cursor: pointer;
-}
-
-.dark {
-  color: #F2E9E4;
-  background-color: #131321;
 }
