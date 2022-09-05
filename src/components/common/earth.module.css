@@ -1,0 +1,20 @@
+.earth {
+  text-align: center;
+  padding-top: 4rem;
+  height: 100%;
+  width: 100%;
+
+  color: #131321;
+  background-color: #F2E9E4;
+}
+
+.earth > button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dark {
+  color: #F2E9E4;
+  background-color: #131321;
+}
