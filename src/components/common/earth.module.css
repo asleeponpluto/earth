@@ -6,6 +6,7 @@
 
   color: #131321;
   background-color: #F2E9E4;
+  transition: all 0.15s ease-out;
 }
 
 .earth > button {
