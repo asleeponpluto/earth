@@ -62,7 +62,7 @@ svg {
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
 
   *,
@@ -81,11 +81,11 @@ svg {
 
 :root {
   --primary-color: #131321;
-  --bg-color: #F2E9E4;
+  --bg-color: #f2e9e4;
 }
 
-.dark {
-  --primary-color: #F2E9E4;
+body.dark {
+  --primary-color: #f2e9e4;
   --bg-color: #131321;
 }
 
